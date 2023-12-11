@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonam Veggi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Leonam Veggi</h1>
+        <p>Especialista em hardware e DEV</p>
+    </header>
+    
+    <section id="sobre">
+        <h2>Sobre:</h2>
+        <p>Sou apaixonado em tecnologia, especialista em conserto e montagem de computadores e notebooks<br>
+            Formado como técnico em informática e atualmente cursando GTI, ambos no IFSUDESTE-MG.
+        </p>
+    </section>
+    
+    <section id="projetos">
+        <h2>Meus Projetos:</h2>
+        <div class="projeto">
+            <img src="img/shopvasco.png" alt="Projeto 1">
+            <h3>Shop Vasco</h3>
+            <p>Site da loja desenvolvido em parceria com o Clube de Regatas Vasco da Gama</p>
+        </div>
+        
+        <div class="projeto">
+            <img src="img/amazon.png" alt="Projeto 2">
+            <h3>Amazon</h3>
+            <p>Site de vendas desenvolvido para a Amazon.</p>
+        </div>
+
+    </section>
+
+<section id="contato">
+    <h2>Contato:</h2>
+    <form id="form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="msgconfirm"></p>
+</section>
+    <script src="script.js"></script>
+    
+</body>
+</html>
