@@ -22,7 +22,10 @@ section {
     justify-content: space-between;
 }
 
-
+.projeto {
+    width: 100%;
+    margin-bottom: 20px;
+}
 .projeto img {
     width: 500px;
     height: 300px; 
@@ -72,5 +75,14 @@ button:hover {
 
 #msgconfirm.mostrar {
     opacity: 1; 
+}
+
+@media screen and (min-width: 600px) {
+    #projetos {
+        justify-content: space-between;
+    }
+    .projeto {
+        width: 48%;
+    }
 }
 
