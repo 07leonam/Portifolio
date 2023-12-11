@@ -21,15 +21,9 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.projeto {
-    width: 100%;
-    margin-bottom: 20px;
-}
 .projeto img {
     width: 500px;
-    height: 250px; 
-    display: flex;
+    height: 250px;
 }
 
 #contato {
